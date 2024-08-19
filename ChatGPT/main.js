@@ -11,10 +11,17 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    autoHideMenuBar: true, // Automatically hide the menu bar
   });
 
   // Load an external webpage
   win.loadURL('https://chatgpt.com/');
+
+  // Explicitly remove the menu
+  win.setMenuBarVisibility(false);
+
+  // Optionally, remove the default application menu completely
+  Menu.setApplicationMenu(null);
 
   // Add a keyboard shortcut to exit kiosk mode (e.g., Ctrl+Shift+Q)
   globalShortcut.register('CommandOrControl+Shift+Q', () => {
