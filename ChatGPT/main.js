@@ -23,13 +23,6 @@ function createWindow() {
   // Optionally, remove the default application menu completely
   Menu.setApplicationMenu(null);
 
-  // Add a keyboard shortcut to exit kiosk mode (e.g., Ctrl+Shift+Q)
-  globalShortcut.register('CommandOrControl+Shift+Q', () => {
-    win.setKiosk(false);
-    win.setFullScreen(false);
-    win.webContents.openDevTools(); // Optional: Open DevTools after exiting kiosk mode
-  });
-
   // Once the webpage is fully loaded, inject the CSS
   win.webContents.on('did-finish-load', () => {
     const cssPath = path.join(__dirname, 'inject.css');
