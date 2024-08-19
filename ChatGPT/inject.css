@@ -1,19 +1,16 @@
 /* inject.css */
 
 body {
-    background-color: rgb(150, 202, 220)!important;
+    background-color: rgb(193, 226, 237)!important;
 }
 
-h1 {
-  color: red!important;
-}
 
 /* hide the top bar */
 .sticky.top-0.p-3.mb-1\.5.flex.items-center.justify-between.z-10.h-14.font-semibold.bg-token-main-surface-primary {
-  display: none;
+  display: none!important;
 }
 
 /* hide question mark at bottom */
 .group.absolute.bottom-2.end-2.z-10.hidden.gap-1.md\:flex.lg\:bottom-3.lg\:end-3 {
-  display: none;
+  display: none!important;
 }
