@@ -10,4 +10,4 @@ This Repo holds electron builds for various remote AI product web tools
 
 ### How do I get set up? ###
 
-* Each folder should have a launch.command file
+* Each folder should have a launch.command for mac and launch.bat for pc
