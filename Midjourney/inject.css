@@ -1,0 +1,20 @@
+/* inject.css */
+
+body {
+    background-color: rgb(233, 243, 247)!important;
+}
+
+/* hide the left nav bar */
+nav {
+  display: none!important;
+}
+
+/* hide the video tutorial */
+.absolute.text-base.font-medium.flex.flex-col.text-light-300.dark\:text-dark-500.items-center.justify-center {
+  display: none!important;
+}
+
+
+div.rounded-xl > div.flex.items-center.border.bg-light-input {
+  display: none!important;
+}
