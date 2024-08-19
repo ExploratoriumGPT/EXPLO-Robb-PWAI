@@ -1,0 +1,9 @@
+/* inject.css */
+
+body {
+    background-color: rgb(150, 202, 220)!important;
+}
+
+h1 {
+  color: red!important;
+}
