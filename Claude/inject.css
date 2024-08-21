@@ -1,0 +1,59 @@
+/* inject.css */
+
+body {
+    background-color: rgb(233, 243, 247)!important;
+}
+
+/* hide Prof plan*/
+.font-tiempos.border-0\.5.absolute.right-2.top-3\.5.ml-0\.5.inline-flex.items-center.gap-1\.5.rounded-full.bg-gradient-to-b.py-2.pl-3\.5.pr-3.text-center.text-xs.sm\:static.sm\:text-sm.from-accent-pro-100\/15.to-accent-pro-100\/5.text-accent-pro-000.border-accent-pro-200\/10 {
+  display: none;
+}
+
+/* hide left side panel */
+.fixed.bottom-0.left-0.top-0.z-20.px-3.pb-4.pt-2\.5.pointer-events-none {
+  display: none;
+}
+
+/*hide bottom */
+.mx-auto.w-full.max-w-2xl.px-1.md\:px-2 {
+  display: none;
+}
+
+/* suggestions
+.flex.md\:px-2.flex-col {
+  display: none;
+} */
+
+
+/* try projects pop up */
+.relative.mx-auto.min-h-14.w-full.max-w-2xl.px-1.md\:px-2 {
+  display: none;
+}
+
+/* upper right controls in chat */
+.absolute.right-4.top-2\.5.flex.gap-2 {
+  display: none;
+}
+
+/* make link not clickable */
+a.inline-block.underline-offset-2.transition-opacity.hover\:underline.opacity-100.duration-700 {
+  pointer-events: none;
+  cursor: default; /* Optional: Changes the cursor to indicate that the link is not clickable */
+}
+
+/* active area that slides out the sidebar */
+nav.z-20.h-screen.max-md\:pointer-events-none.max-md\:fixed {
+  display: none;
+  pointer-events: none;
+}
+
+
+/* hide chat title */
+.flex.min-w-0.items-center.max-md\:text-sm {
+  display: none;
+}
+
+/* file upload */
+.gap-0 .inline-flex{
+  display: none;
+}
