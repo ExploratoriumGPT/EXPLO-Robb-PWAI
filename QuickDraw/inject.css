@@ -1,0 +1,53 @@
+/* inject.css */
+
+body {
+    background-color: rgb(233, 243, 247)!important;
+}
+
+
+/* hide the top bar */
+#button-about {
+  display: none!important;
+}
+
+#splashscreen-share {
+  display: none!important;
+}
+
+a[href="https://experiments.withgoogle.com/ai"] {
+  pointer-events: none;
+  cursor: default;
+}
+
+.privacy-link-group {
+  display: none!important;
+}
+
+a[href="https://github.com/googlecreativelab/quickdraw-dataset"]{
+  display: none!important;
+  pointer-events: none;
+  cursor: default;
+}
+
+a[href="/data/share"]{
+  display: none!important;
+  pointer-events: none;
+  cursor: default;
+}
+
+a[href="https://quickdraw.withgoogle.com/data"]{
+  pointer-events: none;
+  cursor: default;
+}
+
+#portfolio-text{
+  display: none!important;
+}
+
+#share_portfolio_twitter{
+  display: none!important;
+}
+
+#share_portfolio_facebook{
+  display: none!important;
+}
