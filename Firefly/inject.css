@@ -1,0 +1,15 @@
+/* inject.css */
+
+body {
+    background-color: rgb(233, 243, 247)!important;
+}
+
+
+/* hide the top bar */
+[data-testid="header-navbar"] {
+  display: none;
+}
+
+header.nzL8CDm9xtJ_Db9zzAJw {
+  display: none;
+}
