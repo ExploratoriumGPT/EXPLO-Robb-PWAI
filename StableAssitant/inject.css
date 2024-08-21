@@ -1,0 +1,43 @@
+/* inject.css */
+
+body {
+    background-color: rgb(233, 243, 247)!important;
+}
+
+
+/* hide the top bar
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-qsb7md {
+  display: none;
+} */
+
+/* hide the top bar */
+.MuiPaper-root.MuiPaper-elevation {
+  display: none;
+}
+
+
+/* side bar */
+.MuiDrawer-root.MuiDrawer-docked.chat-history-drawer {
+  display: none;
+}
+
+/* .MuiBox-root {
+   display: none;
+} */
+
+a {
+  pointer-events: none;
+  cursor: default; /* Optional: Changes the cursor to indicate that the link is not clickable */
+}
+
+span[aria-label="Show history"] {
+  display: none;
+}
+
+span > #upload-button {
+  display: none;
+}
+
+#chat-settings-open-modal {
+  display: none;
+}
