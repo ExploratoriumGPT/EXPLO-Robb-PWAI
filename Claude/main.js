@@ -6,8 +6,8 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    // kiosk: true,
-    // fullscreen: true,
+    kiosk: true,
+    fullscreen: true,
     webPreferences: {
       nodeIntegration: true,
     },
