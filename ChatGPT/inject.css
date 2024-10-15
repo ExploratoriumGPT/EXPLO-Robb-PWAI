@@ -14,3 +14,8 @@ body {
 .group.absolute.bottom-2.end-2.z-10.hidden.gap-1.md\:flex.lg\:bottom-3.lg\:end-3 {
   display: none!important;
 }
+
+button[data-testid="send-button"] {
+  /* Your styles here */
+  display: none!important;
+}

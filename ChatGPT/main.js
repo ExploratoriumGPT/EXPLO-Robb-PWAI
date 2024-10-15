@@ -9,6 +9,7 @@ function createWindow() {
     kiosk: true,
     fullscreen: true,
     webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),  // Add this line
       nodeIntegration: true,
     },
     autoHideMenuBar: true, // Automatically hide the menu bar
