@@ -32,7 +32,7 @@ function createWindow() {
     win.webContents.insertCSS(css);
   });
 
-  win.webContents.openDevTools(); //open dev tools
+  // win.webContents.openDevTools(); //open dev tools
 }
 
 app.whenReady().then(() => {
