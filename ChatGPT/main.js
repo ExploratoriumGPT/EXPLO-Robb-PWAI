@@ -6,6 +6,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    zoomFactor: 3,
     kiosk: true,
     fullscreen: true,
     webPreferences: {
@@ -31,7 +32,7 @@ function createWindow() {
     win.webContents.insertCSS(css);
   });
 
- win.webContents.openDevTools(); //open dev tools
+  win.webContents.openDevTools(); //open dev tools
 }
 
 app.whenReady().then(() => {
